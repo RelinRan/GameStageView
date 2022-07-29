@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GameStageView">
+        <!--item宽度-->
+        <attr name="itemWidth" format="dimension" />
+        <!--item高度-->
+        <attr name="itemHeight" format="dimension" />
+        <!--item圆角大小-->
+        <attr name="itemRadius" format="dimension" />
+        <!--item文字大小-->
+        <attr name="itemTextSize" format="dimension" />
+        <!--分割线颜色-->
+        <attr name="itemDividerColor" format="color" />
+        <!--水平分割线宽度-->
+        <attr name="itemDividerHorizontalWidth" format="dimension" />
+        <!--水平分割线高度-->
+        <attr name="itemDividerHorizontalHeight" format="dimension" />
+        <!--垂直分割线宽度-->
+        <attr name="itemDividerVerticalWidth" format="dimension" />
+        <!--垂直分割线高度-->
+        <attr name="itemDividerVerticalHeight" format="dimension" />
+        <!--item总数-->
+        <attr name="itemCount" format="integer" />
+        <!--列数-->
+        <attr name="columnCount" format="integer" />
+        <!--当前关1开始-->
+        <attr name="itemPosition" format="integer" />
+        <!--解锁文字颜色-->
+        <attr name="itemUnlockTextColor" format="color" />
+        <!--未解锁文字颜色-->
+        <attr name="itemLockTextColor" format="color" />
+        <!--解锁背景颜色-->
+        <attr name="itemUnlockBackgroundColor" format="color" />
+        <!--未解锁背景颜色-->
+        <attr name="itemLockBackgroundColor" format="color" />
+        <!--内部左间距-->
+        <attr name="InnerPaddingLeft" format="dimension" />
+        <!--内部右边距-->
+        <attr name="InnerPaddingRight" format="dimension" />
+        <!--内部上间距-->
+        <attr name="InnerPaddingTop" format="dimension" />
+        <!--头像资源-->
+        <attr name="itemHeadSrc" format="reference" />
+        <!--头像大小-->
+        <attr name="itemHeadSize" format="dimension" />
+        <!--头像边线颜色-->
+        <attr name="itemHeadStrokeColor" format="color" />
+        <!--头像边线宽度-->
+        <attr name="itemHeadStrokeWidth" format="dimension" />
+        <!--头像箭头颜色-->
+        <attr name="itemHeadArrowColor" format="color" />
+        <!--头像箭头上间距-->
+        <attr name="headArrowMarginTop" format="dimension" />
+    </declare-styleable>
+</resources>
